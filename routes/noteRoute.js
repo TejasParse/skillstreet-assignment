@@ -90,7 +90,7 @@ router.get("/", notesController.getNotes);
  *                   type: string
  *                   format: date-time
  *                   description: The timestamp when the note was last updated.
- *       404:
+ *       500:
  *        description: Note Not Found!
  *        content:
  *          application/json:
